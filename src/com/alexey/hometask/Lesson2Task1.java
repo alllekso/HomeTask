@@ -4,7 +4,7 @@ import java.util.OptionalDouble;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Lesson2 {
+public class Lesson2Task1 {
     public static void main(String[] args) {
         System.out.println("Введите 3 числа:");
         Scanner scan = new Scanner(System.in);
@@ -17,9 +17,6 @@ public class Lesson2 {
         System.out.println("Min = " + min);
         System.out.println("Max = " + max);
         System.out.println("Avg = " + avg);
-
-
-
-
-}}
+}
+}
 
