@@ -1,7 +1,7 @@
 //Заполнить одномерный целочисленный массив значениями от 1 до 10 включительно.
 //	Одномерный массив вывести в строку в виде:
 //	[3, 4, 9, 10, 1, 2, 8, 10, 3, 1, 7]
-package com.alexey.hometask;
+package com.alexey.hometask.Lesson2;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package com.alexey.hometask;
+package Lessons.Lesson3;
 
 import java.util.Scanner;
 

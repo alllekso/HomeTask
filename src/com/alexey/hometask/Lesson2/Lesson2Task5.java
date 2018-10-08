@@ -1,5 +1,5 @@
 //Сила тяжести на Луне составляет около 17% земной. Напишите программу, которая вычислила бы ваш вес на Луне
-package com.alexey.hometask;
+package com.alexey.hometask.Lesson2;
 import java.util.Scanner;
 
 public class Lesson2Task5 {

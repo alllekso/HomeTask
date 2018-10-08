@@ -1,4 +1,4 @@
-package com.alexey.hometask;
+package com.alexey.hometask.Lesson2;
 //Инициализировать две переменные. Поменять их значения местами
 public class Lesson2Task3 {
     public static void main(String[] args) {

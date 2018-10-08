@@ -1,5 +1,5 @@
 //Реализовать программу ввода числа x с клавиатуры и вывода значения: x - 5%
-package com.alexey.hometask;
+package com.alexey.hometask.Lesson2;
 import java.util.Scanner;
 
 public class Lesson2Task4 {

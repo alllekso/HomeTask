@@ -1,6 +1,6 @@
 //В переменной n хранится натуральное двузначное число.
 // Создайте программу, вычисляющую и выводящую на экран сумму цифр числа n.
-package com.alexey.hometask;
+package com.alexey.hometask.Lesson2;
 
 import java.util.Scanner;
 

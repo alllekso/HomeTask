@@ -1,4 +1,4 @@
-package com.alexey.hometask;
+package com.alexey.hometask.Lesson2;
 import java.util.Scanner;
 //Релизовать программу возведения числа в квадрат
 
