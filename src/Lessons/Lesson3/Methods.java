@@ -7,19 +7,16 @@ public class Methods {
     public static void main(String[] args) {
         int max = inputNumber();
         System.out.println(sum(max));
-        newMethod();
-    }
 
-    private static void newMethod() {
     }
 
     public static int inputNumber() {
+        System.out.println("Введите число больше нуля:");
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
-        while (n < 0) {
-            System.out.println("Введите число больше нуля");
+        while (n <= 0) {
+            System.out.println("Введите число больше нуля:");
             n = scan.nextInt();
-
         }
         return n;
     }
@@ -30,6 +27,5 @@ public class Methods {
             sum = sum + i;
         return  sum;
     }
-
 }
 
