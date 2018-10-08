@@ -16,7 +16,7 @@ public class Lesson2Task1 {
         OptionalDouble avg = Arrays.stream(tab).average();
         System.out.println("Min = " + min);
         System.out.println("Max = " + max);
-        System.out.println("Avg = " + avg);
+        System.out.println("Avg = " + avg.getAsDouble());
 }
 }
 
