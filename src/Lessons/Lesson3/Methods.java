@@ -7,7 +7,6 @@ public class Methods {
     public static void main(String[] args) {
         int max = inputNumber();
         System.out.println(sum(max));
-
     }
 
     public static int inputNumber() {
