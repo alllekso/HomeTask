@@ -8,11 +8,11 @@ import java.util.Scanner;
 
 public class Task1 {
     public static void main(String[] args) {
-        printString(enterScan());
+        printString(inputString());
     }
 
     // Считываем строку
-    private static String enterScan() {
+    private static String inputString() {
         System.out.printf("Введите строку из 5 и более слов.%nМинимум одно слово должно начинаться на букву d: %n");
         Scanner scan = new Scanner(System.in);
         return scan.nextLine();
@@ -22,7 +22,7 @@ public class Task1 {
         String[] array = str.split(" ");
         if (array.length < 5) {
             System.out.println("Введите 5 и более слов");
-            printString(enterScan());
+            printString(inputString());
         } else {
             //Выводим исходную строку
             System.out.println("Вы ввели:" + str);
