@@ -5,5 +5,6 @@ public class gitMerge {
         System.out.println("Hello");
         System.out.println("new feature in master");
         System.out.println("finat feature");
+        System.out.println("fix here too");
     }
 }
