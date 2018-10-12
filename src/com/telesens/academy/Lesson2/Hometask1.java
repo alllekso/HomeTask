@@ -19,6 +19,7 @@ public class Hometask1 {
         System.out.println("Нажмите любую клавишу для отображения задания №10 и нажмите Enter");
         Scanner scan = new Scanner(System.in);
         String str = scan.nextLine();
+
 //		a) Написать Java программу, которая выводит на консоль следующую фигуру:
 //			*
 //			**
