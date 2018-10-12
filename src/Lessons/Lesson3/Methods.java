@@ -27,4 +27,3 @@ public class Methods {
         return  sum;
     }
 }
-
