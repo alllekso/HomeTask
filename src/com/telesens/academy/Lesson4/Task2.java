@@ -1,4 +1,4 @@
-package Lessons.Lesson3.Lesson4;
+package com.telesens.academy.Lesson4;
 
 public class Task2 {
     public static void main(String[] args) {

@@ -6,13 +6,13 @@
 //	- выводит исходный массив
 //	- выводит перевернутый массив
 //	- выводит отсортированный массив
-package com.alexey.hometask.Lesson3;
+package com.telesens.academy.Lesson3;
 
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Task8 {
+public class Hometask3Task8 {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(generateArray()));
     }

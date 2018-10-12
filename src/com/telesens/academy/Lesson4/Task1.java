@@ -1,8 +1,8 @@
-//package Lessons.Lesson3.Lesson4;
+//package com.telesens.academy.Lesson4;
 //
 //import java.util.Scanner;
 //
-//public class Task1 {
+//public class Hometask3Task1 {
 //    public static void main(String[] args) {
 //
 //    }

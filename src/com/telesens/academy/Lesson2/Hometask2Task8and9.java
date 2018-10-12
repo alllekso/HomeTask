@@ -1,10 +1,10 @@
 //В переменной n хранится натуральное двузначное число.
 // Создайте программу, вычисляющую и выводящую на экран сумму цифр числа n.
-package com.alexey.hometask.Lesson2;
+package com.telesens.academy.Lesson2;
 
 import java.util.Scanner;
 
-public class Lesson2Task8and9 {
+public class Hometask2Task8and9 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите двузначное натуральное число:");

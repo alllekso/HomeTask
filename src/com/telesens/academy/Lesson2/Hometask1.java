@@ -1,4 +1,4 @@
-package com.alexey.hometask.Lesson2;
+package com.telesens.academy.Lesson2;
 import java.util.Scanner;
 //		a) Написать Java программу, которая выводит на консоль следующий текст (в несколько строк):
 //			(Для каждого нового предложения использовать отдельный вызов print или println)
@@ -8,7 +8,7 @@ import java.util.Scanner;
 //			Программировать - это удовольствие.
 //			Моя цель - ...
 
-public class Lesson1 {
+public class Hometask1 {
     public static void main(String[] args) {
         String hello = "Привет! ", introduce = "Это моя первая программа. Я уже пишу на Java";
         String hard = "Программировать - это удовольствиe.";

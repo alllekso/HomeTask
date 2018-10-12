@@ -1,8 +1,8 @@
-package com.alexey.hometask.Lesson2;
+package com.telesens.academy.Lesson2;
 
 import java.util.Scanner;
 
-public class Lesson2Task7 {
+public class Hometask2Task7 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите число №1");

@@ -1,4 +1,4 @@
-package Lessons.Lesson3;
+package com.telesens.academy.Lesson3;
 
 import java.util.Scanner;
 

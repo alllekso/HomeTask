@@ -2,11 +2,11 @@
 //	- считывает строку
 //	- выводит исходную строку
 //	- выводит количество и список слов, которые начинаются на букву 'd'
-package com.alexey.hometask.Lesson3;
+package com.telesens.academy.Lesson3;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class Hometask3Task1 {
     public static void main(String[] args) {
         printString(inputString());
     }
