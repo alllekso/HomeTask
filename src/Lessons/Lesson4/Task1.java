@@ -1,4 +1,4 @@
-//package Lessons.Lesson3.Lesson4;
+//package Lessons.Lesson3.Lesson3.Lesson4;
 //
 //import java.util.Scanner;
 //
