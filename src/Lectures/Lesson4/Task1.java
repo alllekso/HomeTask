@@ -1,4 +1,4 @@
-//package Lections.HomeTask3.HomeTask3.Lesson4;
+//package Lectures.HomeTask3.HomeTask3.Lesson4;
 //
 //import java.util.Scanner;
 //

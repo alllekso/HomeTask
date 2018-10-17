@@ -28,7 +28,7 @@
 //        Продемонстрировать работу программы (в методe main не должно быть
 //        другого кода, кроме вызовов созданных методов)
 
-package Lections.Lesson3;
+package Lectures.Lesson3;
 
 import java.util.Arrays;
 import java.util.Scanner;
