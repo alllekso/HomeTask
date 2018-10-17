@@ -42,10 +42,16 @@ public class Task1ArrayActions {
     }
 
     private static void printReport(int[] array) {
+        System.out.print("Вы ввели массив из элементов: ");
         printArray(array);
+        System.out.print("Сумма всех чисел массива: ");
         System.out.println(sum(array));
+        System.out.print("Максимальное число массива: ");
         System.out.println(max(array));
-        System.out.println(countEven(array));
+        System.out.print("Сумма всех чётных чисел массива: ");
+        System.out.println(countEvenSum(array));
+        System.out.println("Количество чётных чисел в массиве: ");
+        System.out.println(countEvenSumNumber(array));
     }
 
     private static void printArray(int[] array) {
@@ -62,7 +68,6 @@ public class Task1ArrayActions {
             System.out.print("Введите " + (i + 1) + "-й элемент массива: ");
             array[i] = scan.nextInt();
         }
-        System.out.printf("Вы ввели массив из %d элементов: ", a);
         return array;
     }
 
@@ -72,7 +77,6 @@ public class Task1ArrayActions {
         for (int i = 0; i < array.length; i++) {
             summa = summa + array[i];
         }
-        System.out.print("Сумма всех чисел массива: ");
         return summa;
     }
 
@@ -80,12 +84,11 @@ public class Task1ArrayActions {
     public static int max(int[] array) {
         Arrays.sort(array);
         int maxID = array[array.length - 1];
-        System.out.print("Максимальное число массива: ");
         return maxID;
     }
 
     //Сумма всех чётных элементов массива
-    private static int countEven(int[] array) {
+    private static int countEvenSum(int[] array) {
         int summaChetnix = 0;
         int count = 0;
         for (int i = 0; i < array.length; i++) {
@@ -94,9 +97,17 @@ public class Task1ArrayActions {
                 count = count + 1;
             }
         }
-        System.out.println("Количество чётных чисел в массиве: " + count);
-        System.out.print("Сумма чётных чисел массива: ");
         return summaChetnix;
     }
 
+    //Количество всех чётных элементов массива
+    private static int countEvenSumNumber(int[] array) {
+        int count = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] % 2 == 0) {
+                count = count + 1;
+            }
+        }
+        return count;
+    }
 }
