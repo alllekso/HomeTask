@@ -87,5 +87,6 @@ public class Start {
         System.out.print("Сумма чётных чисел массива: ");
         return summaChetnix;
     }
+
 }
 
