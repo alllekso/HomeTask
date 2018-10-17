@@ -1,10 +1,10 @@
-package com.alexey.hometask.Lesson2;
+package com.telesens.academy.Lesson2;
 //Написать программу ввода с клавиатуры последовательно 3 чисел. Вывести минимальное максимальное и средние значения
 import java.util.OptionalDouble;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Lesson2Task1 {
+public class Hometask2Task1 {
     public static void main(String[] args) {
         System.out.println("Введите 3 числа:");
         Scanner scan = new Scanner(System.in);

@@ -1,6 +1,6 @@
-package com.alexey.hometask.Lesson2;
+package com.telesens.academy.Lesson2;
 //Инициализировать две переменные. Поменять их значения местами
-public class Lesson2Task3 {
+public class Hometask2Task3 {
     public static void main(String[] args) {
         int a = 3;
         int b = 4;

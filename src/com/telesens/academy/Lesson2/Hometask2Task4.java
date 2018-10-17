@@ -1,8 +1,8 @@
 //Реализовать программу ввода числа x с клавиатуры и вывода значения: x - 5%
-package com.alexey.hometask.Lesson2;
+package com.telesens.academy.Lesson2;
 import java.util.Scanner;
 
-public class Lesson2Task4 {
+public class Hometask2Task4 {
     public static void main(String[] args) {
         char p = '%';
         System.out.println("Введите число");

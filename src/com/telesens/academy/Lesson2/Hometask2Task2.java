@@ -1,8 +1,8 @@
-package com.alexey.hometask.Lesson2;
+package com.telesens.academy.Lesson2;
 import java.util.Scanner;
 //Релизовать программу возведения числа в квадрат
 
-public class Lesson2Task2 {
+public class Hometask2Task2 {
     public static void main(String[] args) {
         System.out.println("Введите число:");
         Scanner scan = new Scanner(System.in);

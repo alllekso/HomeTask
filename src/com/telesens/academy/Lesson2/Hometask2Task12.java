@@ -1,12 +1,12 @@
 //Заполнить одномерный целочисленный массив значениями от 1 до 10 включительно.
 //	Одномерный массив вывести в строку в виде:
 //	[3, 4, 9, 10, 1, 2, 8, 10, 3, 1, 7]
-package com.alexey.hometask.Lesson2;
+package com.telesens.academy.Lesson2;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Lesson2Task12 {
+public class Hometask2Task12 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int[] array;

@@ -4,11 +4,11 @@
         - выводит исходную строку
         - выводит преобразованную строку
         - выводит список удаленных символов*/
-package com.alexey.hometask.Lesson3;
+package com.telesens.academy.Lesson3;
 
 import java.util.Scanner;
 
-public class Task4 {
+public class Hometask3Task4 {
 
     public static void main(String[] args) {
         System.out.println("Введите строку из букв и целых чисел:");
