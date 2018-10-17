@@ -1,6 +1,6 @@
 //В переменной n хранится вещественное число с ненулевой дробной частью.
 //	Создайте программу, округляющую число n до ближайшего целого и выводящую результат на экран.
-package com.telesens.academy.Lesson2;
+package com.telesens.academy.HomeTask2;
 
 import java.util.Scanner;
 

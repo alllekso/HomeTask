@@ -1,4 +1,4 @@
-package com.telesens.academy.Lesson4;
+package Lectures.Lesson4;
 
 public class Array2DMain {
     public static void main(String[] args) {

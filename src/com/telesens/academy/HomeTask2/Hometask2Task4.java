@@ -1,5 +1,5 @@
 //Реализовать программу ввода числа x с клавиатуры и вывода значения: x - 5%
-package com.telesens.academy.Lesson2;
+package com.telesens.academy.HomeTask2;
 import java.util.Scanner;
 
 public class Hometask2Task4 {

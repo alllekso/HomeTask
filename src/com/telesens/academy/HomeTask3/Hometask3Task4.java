@@ -4,7 +4,7 @@
         - выводит исходную строку
         - выводит преобразованную строку
         - выводит список удаленных символов*/
-package com.telesens.academy.Lesson3;
+package com.telesens.academy.HomeTask3;
 
 import java.util.Scanner;
 

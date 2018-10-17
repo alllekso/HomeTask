@@ -2,7 +2,7 @@
 //	- считывает строку
 //	- выводит исходную строку
 //	- выводит количество и список слов, которые начинаются на букву 'd'
-package com.telesens.academy.Lesson3;
+package com.telesens.academy.HomeTask3;
 
 import java.util.Scanner;
 

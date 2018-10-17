@@ -1,4 +1,4 @@
-package com.telesens.academy.Lesson2;
+package com.telesens.academy.HomeTask1;
 import java.util.Scanner;
 //		a) Написать Java программу, которая выводит на консоль следующий текст (в несколько строк):
 //			(Для каждого нового предложения использовать отдельный вызов print или println)

@@ -1,4 +1,4 @@
-package com.telesens.academy.Lesson2;
+package com.telesens.academy.HomeTask2;
 import java.util.Scanner;
 //Релизовать программу возведения числа в квадрат
 

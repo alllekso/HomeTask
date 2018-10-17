@@ -1,4 +1,4 @@
-package com.telesens.academy.Lesson3;
+package Lectures.Lesson3;
 
 import java.util.Scanner;
 
@@ -27,4 +27,3 @@ public class Methods {
         return  sum;
     }
 }
-

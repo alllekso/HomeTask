@@ -1,4 +1,4 @@
-package com.telesens.academy.Lesson2;
+package com.telesens.academy.HomeTask2;
 //Написать программу ввода с клавиатуры последовательно 3 чисел. Вывести минимальное максимальное и средние значения
 import java.util.OptionalDouble;
 import java.util.Arrays;
