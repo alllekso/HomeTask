@@ -38,6 +38,10 @@ public class Start {
     static int[] array = createArrayDialog();
 
     public static void main(String[] args) {
+        printReport(array);
+    }
+
+    private static void printReport(int[] array) {
         printArray(array);
         System.out.println(sum(array));
         System.out.println(max(array));
@@ -48,6 +52,7 @@ public class Start {
         System.out.println(Arrays.toString(array));
     }
 
+    //Ввод массима с консоли
     private static int[] createArrayDialog() {
         Scanner scan = new Scanner(System.in);
         System.out.print("Введите размер массива: ");
@@ -61,6 +66,7 @@ public class Start {
         return array;
     }
 
+    //Сумма всех элементов массива
     private static int sum(int[] array) {
         int summa = 0;
         for (int i = 0; i < array.length; i++) {
@@ -70,6 +76,7 @@ public class Start {
         return summa;
     }
 
+    //Поиск максимального значения в массиве
     public static int max(int[] array) {
         Arrays.sort(array);
         int maxID = array[array.length - 1];
@@ -77,15 +84,19 @@ public class Start {
         return maxID;
     }
 
+    //Сумма всех чётных элементов массива
     private static int countEven(int[] array) {
         int summaChetnix = 0;
+        int count = 0;
         for (int i = 0; i < array.length; i++) {
-            if (i % 2 == 0) {
+            if (array[i] % 2 == 0) {
                 summaChetnix = summaChetnix + array[i];
+                count = count + 1;
             }
         }
+        System.out.println("Количество чётных чисел в массиве: " + count);
         System.out.print("Сумма чётных чисел массива: ");
         return summaChetnix;
-
     }
+
 }
