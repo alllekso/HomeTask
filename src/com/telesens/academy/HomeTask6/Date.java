@@ -53,7 +53,7 @@ public class Date {
     }
     public void differenceIdDays(Date compare){
         int range = (this.day+(this.year/4) + this.month*30 + this.year*365) - (compare.day+(compare.year/4) + compare.month*30 + compare.year*365);
-        System.out.printf("Разница между %d.%d.%d и %d.%d.%d составляет: %d дней.", compare.day,compare.month,compare.year,this.day,this.month,this.year,range);
+        System.out.printf("Разница между %d.%d.%d и %d.%d.%d составляет: %d дней.\n", compare.day,compare.month,compare.year,this.day,this.month,this.year,range);
 
     }
 

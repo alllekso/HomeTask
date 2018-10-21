@@ -15,6 +15,8 @@ public class ButtonTests {
         int heigh = button.getHeigh();
         String text = button.getText();
 
+
+
         System.out.println(width == 10);
         assert width == 10;
         assert heigh == 20;

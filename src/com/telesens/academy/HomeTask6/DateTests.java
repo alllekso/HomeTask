@@ -19,6 +19,21 @@ public class DateTests {
         animeClubFoundation.printDate();
         someDay.printDate();
         someDay.differenceIdDays(myBirthday);
+        checkData();
+    }
+    private static void checkData(){
+        Date date = new Date(10,20,30);
+        int day = date.getDay();
+        int month = date.getMonth();
+        int year = date.getYear();
+
+        System.out.println(day >= 9);
+        System.out.println(month <= 30);
+        System.out.println(year <= 9999);
+        assert day <= 10;
+        assert month == 20;
+        assert year == 30;
+
     }
 
 }
