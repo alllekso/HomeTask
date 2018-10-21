@@ -25,6 +25,7 @@ public class RegexBoolean {
 
         System.out.println("Result1: " + result1);
         System.out.println("Result2: " + result2);
+        return result();
     }
 
     public static int select() {
