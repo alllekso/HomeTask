@@ -22,7 +22,7 @@ public class DateTests {
         checkData();
     }
     private static void checkData(){
-        Date date = new Date(10,20,30);
+        Date date = new Date(20, 20, 30);
         int day = date.getDay();
         int month = date.getMonth();
         int year = date.getYear();
