@@ -20,6 +20,9 @@ public class CartTests {
         System.out.println(String.format("Add entity '%s' to cart", entityAdded));
         System.out.println("Go to cart");
 
+        System.out.println("Click '+' to increase the amount of entity by 1");
+        EntityDress entityAmount = readCurrentEntityFromUI();
+
         EntityDress entityFromCart = readEntityFromCart();
         System.out.println(String.format("Read entity '%s' from cart", entityFromCart));
 
@@ -36,6 +39,8 @@ public class CartTests {
         entityFromCart.setSize("S");
         entityFromCart.setColor("Orange");
         entityFromCart.setPrice(26.00);
+        entityFromCart.setAmount(2);
+        entityFromCart.setTotalPrice(26.00*2);
         return entityFromCart;
     }
 
@@ -46,6 +51,8 @@ public class CartTests {
         entityAdded.setSize("S");
         entityAdded.setColor("Orange");
         entityAdded.setPrice(26.00);
+        entityAdded.setAmount(2);
+        entityAdded.setTotalPrice(26.00*2);
         return entityAdded;
     }
 
