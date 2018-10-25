@@ -12,6 +12,7 @@ public class CartTests {
         this.baseUrl = baseUrl;
     }
 
+
     public void testAddDressToCart(EntityDress addedDress, int amount) {
         beforeTest();
         System.out.println("Find and Click more by " + addedDress);
