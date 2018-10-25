@@ -12,24 +12,35 @@ public class CartTests {
         this.baseUrl = baseUrl;
     }
 
-    public void testAddDressToCart() {
+    public void testAddDressToCart(EntityDress addedDress, int amount) {
         beforeTest();
-        System.out.println("Click more");
-        EntityDress entityAdded = readCurrentEntityFromUI();
+        System.out.println("Find and Click more by " + addedDress);
+//        EntityDress entityAdded = readCurrentEntityFromUI();
 
-        System.out.println(String.format("Add entity '%s' to cart", entityAdded));
+        System.out.println(String.format("Add entity '%s', amount: %d to cart",
+                addedDress, amount));
         System.out.println("Go to cart");
 
-        System.out.println("Click '+' to increase the amount of entity by 1");
-        EntityDress entityAmount = readCurrentEntityFromUI();
-
         EntityDress entityFromCart = readEntityFromCart();
+        int amountFromCart = readAmountFromCart();
+        double totalFromCart = readTotalFromCart();
+        double total = amountFromCart * addedDress.getPrice();
         System.out.println(String.format("Read entity '%s' from cart", entityFromCart));
 
 
         System.out.println("Assert equals added entity and read entity");
-        assert entityAdded.equals(entityFromCart);
+        assert addedDress.equals(entityFromCart);
+        assert amount == amountFromCart;
+        assert total == totalFromCart;
         System.out.println("Finish 'testAddDressToCart'");
+    }
+
+    private double readTotalFromCart() {
+        return 52.0;
+    }
+
+    private int readAmountFromCart() {
+        return 2;
     }
 
     private EntityDress readEntityFromCart() {
@@ -39,8 +50,6 @@ public class CartTests {
         entityFromCart.setSize("S");
         entityFromCart.setColor("Orange");
         entityFromCart.setPrice(26.00);
-        entityFromCart.setAmount(2);
-        entityFromCart.setTotalPrice(26.00*2);
         return entityFromCart;
     }
 
@@ -51,8 +60,6 @@ public class CartTests {
         entityAdded.setSize("S");
         entityAdded.setColor("Orange");
         entityAdded.setPrice(26.00);
-        entityAdded.setAmount(2);
-        entityAdded.setTotalPrice(26.00*2);
         return entityAdded;
     }
 

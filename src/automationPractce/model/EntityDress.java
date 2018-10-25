@@ -7,10 +7,8 @@ public class EntityDress {
     private String name;
     private String size;
     private String color;
-    private int amount;
+    // TODO migrate to BigDecimal
     private double price;
-    private double totalPrice;
-    //TO DO migrate to big decemal
 
     public String getModel() {
         return model;
@@ -52,25 +50,15 @@ public class EntityDress {
         this.price = price;
     }
 
-    public double getAmount() {
-        return amount;
-    }
-
-    public void setAmount(int amount) {
-        this.amount = amount;
-    }
-
-    public double getTotalPrice() {
-        return totalPrice;
-    }
-
-    public void setTotalPrice(double totalPrice) {
-        this.totalPrice = totalPrice;
-    }
-
     @Override
     public String toString() {
-        return "EntityDress{" + "model='" + model + '\'' + ", name='" + name + '\'' + ", size='" + size + '\'' + ", color='" + color + '\'' + ", amount=" + amount + ", price=" + price + ", totalPrice=" + totalPrice + '}';
+        return "Позиция{" +
+                "model='" + model + '\'' +
+                ", name='" + name + '\'' +
+                ", size='" + size + '\'' +
+                ", color='" + color + '\'' +
+                ", price=" + price + "$" +
+                '}';
     }
 
     @Override
@@ -78,12 +66,16 @@ public class EntityDress {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         EntityDress that = (EntityDress) o;
-        return Double.compare(that.amount, amount) == 0 && Double.compare(that.price, price) == 0 && Double.compare(that.totalPrice, totalPrice) == 0 && Objects.equals(model, that.model) && Objects.equals(name, that.name) && Objects.equals(size, that.size) && Objects.equals(color, that.color);
+        return Double.compare(that.price, price) == 0 &&
+                Objects.equals(model, that.model) &&
+                Objects.equals(name, that.name) &&
+                Objects.equals(size, that.size) &&
+                Objects.equals(color, that.color);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(model, name, size, color, amount, price, totalPrice);
+        return Objects.hash(model, name, size, color, price);
     }
 }
 
