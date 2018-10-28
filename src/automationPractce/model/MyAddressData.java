@@ -7,8 +7,7 @@ public class MyAddressData extends AddressData {
     @Override
     public String toString() {
         return "MyAddressData{addressAlias=" + getAlias() +
-                "\n" + getAddress() +
-                "My city\n" + getCity() + "\n" + getCountry()
+                "\n" + getAddress() + "My city\n" + getCity() + "\n" + getCountry() +
 
         "}";
     }
