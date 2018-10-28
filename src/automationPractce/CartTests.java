@@ -10,6 +10,7 @@ public class CartTests {
     public void init(String browser, String baseUrl) {
         this.browser = browser;
         this.baseUrl = baseUrl;
+
     }
 
     public void testAddDressToCart(EntityDress addedDress, int amount) {
